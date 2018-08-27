@@ -1,0 +1,26 @@
+{
+    "name": "my-game",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "scripts": {
+        "build:prod": "./node_modules/.bin/webpack --mode=production",
+        "build:dev": "./node_modules/.bin/webpack --mode=development",
+        "start:dev": "./node_modules/.bin/webpack-dev-server"
+    },
+    "author": "gjean",
+    "contributors": [],
+    "dependencies": {},
+    "devDependencies": {
+        "ts-loader": "^4.5.0",
+        "typescript": "^3.0.1",
+        "webpack": "^4.17.1",
+        "webpack-cli": "^3.1.0",
+        "webpack-dev-server": "^3.1.6"
+    }
+}
